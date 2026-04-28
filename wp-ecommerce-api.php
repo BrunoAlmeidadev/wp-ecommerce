@@ -1,7 +1,10 @@
 <?php
 /**
  * Plugin Name: WP E-commerce API
+ * Description: API RESTful moderna e escalável para e-commerce. Abandona os CPTs em favor de tabelas relacionais customizadas de alta performance.
  * Version: 1.0.0
+ * Author: Bruno Almeida
+ * Author URI: https://github.com/BrunoAlmeidadev
  */
 
 declare(strict_types=1);
