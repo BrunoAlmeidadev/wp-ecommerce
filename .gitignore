@@ -1,0 +1,48 @@
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+# Node / JS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Composer / PHP
+vendor/
+# composer.lock (Removido: é uma boa prática versionar este arquivo para garantir a mesma versão das dependências em produção)
+.phpunit.result.cache
+
+# Builds e Caches
+dist/
+build/
+.cache/
+coverage/
+*.map
+
+# Variáveis de Ambiente
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.idea/
+.vscode/
+*.code-workspace
+
+# Arquivos compactados e backups
+*.zip
+*.tar.gz
+*.bak
+
+# Pastas de uploads ou caches locais
+cache/
+uploads/
+
+# Docker
+docker-compose.override.yml
+.docker/
+docker-data/
